@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shoeppers</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 mb-2 quicksand">
+                <div class="container  d-lg-flex justify-content-around">
+                    <a class="navbar-brand" href="index.html">Shoeppers</a>
+                    <div class="w-50 d-lg-flex justify-content-around">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="products.html">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="cart.html">Cart</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="checkout.html">Checkout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+
+       
+
+        <main class="container quicksand-light">
+            <div class="my-5">
+                <h2 class="page-header text-left">Confirm order and pay</h2>
+                <p>Please make the payment, and have you item shipped for you to enjoy the experience</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 my-2">
+                    <form method="GET">
+                        <h4>PAYMENT DETAILS</h4>
+                        <div class="form-group">
+                            <label for="card-name">Name on Card</label>
+                            <input type="text" id="card-name" name="card-name" class="form-control" placeholder="Name on Card" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 form-group">
+                                <label for="card-number">Card number</label>
+                                <input type="number" id="card-number" name="card-number" class="form-control" placeholder="" required>
+                            </div>
+                            <div class="col-3 form-group">
+                                <label for="card-expiry">Expiry</label>
+                                <input type="text" id="card-expiry" name="card-expiry" class="form-control" placeholder="MM/YYYY" required>
+                            </div>
+                            <div class="col-3 form-group">
+                                <label for="card-cvv">CVV</label>
+                                <input type="number" id="card-cvv" name="card-cvv" class="form-control" placeholder="" required>
+                            </div>
+                        </div>
+                        <h4>BILLING ADDRESS</h4>
+                        <div class="row">
+                            <div class="col-6 form-group">
+                                <label for="street-address">Street Address</label>
+                                <input type="text" id="street-address" name="street-address" class="form-control" placeholder="" required>
+                            </div>
+                            <div class="col-6 form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" name="city" class="form-control" placeholder="" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 form-group">
+                                <label for="state">State/Province</label>
+                                <select id="state" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option>State 1</option>
+                                    <option>State 2</option>
+                                    <option>State 3</option>
+                                    <option>State 4</option>
+                                </select>
+                            </div>
+                            <div class="col-6 form-group">
+                                <label for="zip-code">Zip code</label>
+                                <input type="text" id="zip-code" name="zip-code" class="form-control" placeholder="" required>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">Pay $ 309.5</button>
+                    </form>
+
+
+                </div>
+                <div class="col-lg-4 p-2 bg-info rounded-3 m-auto text-center">
+                    <h5>You have to pay</h5>
+                    <h1>$
+                        <strong>309</strong>.5</h1>
+                    <p>Enjoy our product after completing your payment</p>
+                    <p>
+                        <strong>Discover  the elegance</strong>
+                    </p>
+                    <p class="shadow-lg p-4">It is a long established fact that a reader will be distracted by the readable content of a 
+                        page when looking at its layout.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <hr>
+        <footer>
+            <div class=" text-center">
+                <div class="container  d-lg-flex justify-content-around">
+                    <ul class="d-lg-flex justify-content-around">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="cart.html">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        
+        <script src="script.js"></script>
+    </body>
+
+</html>
